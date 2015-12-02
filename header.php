@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+
     <!-- External CSS -->
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 

@@ -45,6 +45,9 @@ add_theme_support( 'post-thumbnails' );
 |--------------------------------------------------------------------------
 */
 
+// New image sizes
+add_image_size( 'bedrock-200', 200, 200, true );
+
 // Remove default thumbnail sizes
 function bedrock_drop_default_image_sizes( $sizes ) {
 	unset( $sizes['medium'] );
@@ -53,9 +56,6 @@ function bedrock_drop_default_image_sizes( $sizes ) {
 }
 
 add_filter( 'intermediate_image_sizes_advanced', 'bedrock_drop_default_image_sizes' );
-
-// New image sizes
-add_image_size( 'thumb-200', 200, 200, true );
 
 
 /*
