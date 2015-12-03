@@ -331,10 +331,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 135.0,
-		"last_filter": "instal",
+		"height": 203.0,
+		"last_filter": "list pa",
 		"selected_items":
 		[
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -416,7 +420,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 583.0
+		"width": 457.0
 	},
 	"console":
 	{
@@ -439,10 +443,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Tim/Sites/_lab/wordpress/wp-content/themes/forge-bedrock"
+		"/Users/Tim/Sites/_lab/wordpress/wp-content/themes/forge-bedrock/scss"
 	],
 	"file_history":
 	[
+		"/Users/Tim/Sites/_lab/wordpress/wp-content/themes/forge-bedrock/scss/manifest.scss",
+		"/Users/Tim/Sites/_lab/wordpress/wp-content/themes/forge-bedrock/scss/_app.scss",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-content/themes/spantec/js/app.js",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-content/themes/spantec/page-projects.php",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-content/themes/spantec/single-project.php",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-content/themes/spantec/style.less",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-content/themes/spantec/layouts/layout-11.php",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-content/themes/spantec/parts/hero-short.php",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-content/themes/spantec/functions.php",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-content/themes/spantec/parts/products-dropdown.php",
+		"/Users/Tim/Sites/spantec.com.au/wordpress/wp-config.php",
+		"/Users/Tim/.bash_profile",
+		"/Users/Tim/Sites/_lab/wordpress/wp-content/themes/forge-bedrock/README.md",
+		"/Users/Tim/Sites/_lab/wordpress/wp-content/themes/forge-bedrock/CHANGELOG.md",
 		"/Users/Tim/Sites/zurb/style.css",
 		"/Users/Tim/Sites/zurb/index.php",
 		"/Users/Tim/Sites/zurb/scss/_theme.scss",
@@ -515,6 +533,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dropdown",
+			"thumb",
+			"nav-wide",
+			"dropdown",
+			"hero",
+			"project-sea",
+			"hero--s",
+			"name",
+			"button",
+			"project",
+			"dropdown",
 			".menu",
 			"%menu",
 			".menu",
@@ -631,18 +660,7 @@
 			"service__icon",
 			"wow.min.js",
 			"service__icon",
-			"sub",
-			"project__details__right",
-			"dropdown",
-			"nav",
-			"gender",
-			"genders",
-			"brand",
-			"variationtitle",
-			"attributes",
-			"meta",
-			"product",
-			"total price"
+			"sub"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -714,6 +732,26 @@
 		"selected_items":
 		[
 			[
+				"app",
+				"js/app.js"
+			],
+			[
+				"style.le",
+				"style.less"
+			],
+			[
+				"hero-s",
+				"parts/hero-short.php"
+			],
+			[
+				"dropdow",
+				"parts/products-dropdown.php"
+			],
+			[
+				"style",
+				"style.less"
+			],
+			[
 				"them",
 				"scss/_theme.scss"
 			],
@@ -748,10 +786,6 @@
 			[
 				"skele",
 				"scss/_skeleton.scss"
-			],
-			[
-				"app",
-				"scss/_app.scss"
 			],
 			[
 				"varia",
@@ -814,10 +848,6 @@
 				"scss/_mixins.scss"
 			],
 			[
-				"style",
-				"style.scss"
-			],
-			[
 				"st",
 				"style.scss"
 			],
@@ -864,10 +894,6 @@
 			[
 				"foot",
 				"footer.php"
-			],
-			[
-				"style.le",
-				"style.less"
 			],
 			[
 				"func",
@@ -1198,10 +1224,6 @@
 				"parts/enews.php"
 			],
 			[
-				"hero-s",
-				"parts/hero-short.php"
-			],
-			[
 				"enew",
 				"parts/enews.php"
 			],
@@ -1220,10 +1242,6 @@
 			[
 				"had",
 				"header.php"
-			],
-			[
-				"affor",
-				"page-affordable.php"
 			]
 		],
 		"width": 0.0

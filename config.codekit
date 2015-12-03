@@ -3293,15 +3293,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/README.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/README.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
@@ -3333,6 +3324,22 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/scss\/_app.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_app.scss",
+		"outputAbbreviatedPath": "\/style.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
 		},
 	"\/scss\/_settings.scss": {
 		"createSourceMap": 0,
@@ -3414,21 +3421,21 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/scss\/app.scss": {
+	"\/scss\/manifest.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/scss\/app.scss",
+		"inputAbbreviatedPath": "\/scss\/manifest.scss",
 		"outputAbbreviatedPath": "\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 3,
+		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 1
+		"useLibsass": 0
 		},
 	"\/search.php": {
 		"fileType": 8192,
