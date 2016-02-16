@@ -1,3 +1,3 @@
-# Bedrock
+# Sam's Bedrock
 
-A modern, stone age theme-ily!
+Starting boilerplate code for all new WP Themes
