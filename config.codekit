@@ -3230,17 +3230,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
-	"\/package.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/package.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/package-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
 	"\/page.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3395,7 +3384,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/manifest.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -3405,25 +3394,16 @@
 		"outputAbbreviatedPath": "\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/search.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/search.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sidebar.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sidebar.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
