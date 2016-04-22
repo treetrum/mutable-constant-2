@@ -2,13 +2,16 @@
 Theme Name: Sam's Bedrock
 Theme URI: http://frge.co
 Description: Boilerplate theme for all new WP Themes made by Sam @ Forge Collective
-Version: 1.2
+Version: 1.3
 Author: Forge Collective
 */
 
-@import "app";
-@import "variables";
-@import "wordpress";
-@import "typography";
-@import "mixins";
-@import "atoms";
+/** Import the core */
+@import "core/app";
+@import "core/variables";
+@import "core/wordpress";
+@import "core/typography";
+@import "core/mixins";
+@import "core/atoms";
+
+/** Import the surface */
