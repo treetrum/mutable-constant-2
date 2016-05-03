@@ -1,5 +1,3 @@
-"use strict";
-
 /** Instantiate Foundation */
 $(document).foundation();
 
