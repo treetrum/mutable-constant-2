@@ -18,3 +18,11 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+    <header class="header">
+        <div class="row">
+            <div class="large-12 columns">
+                <h1 class="headline">MutableConstant</h1>
+            </div>
+        </div>
+    </header>

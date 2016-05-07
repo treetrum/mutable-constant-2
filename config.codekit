@@ -3432,7 +3432,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "PIR",
+	"displayValue": "Mutable Constant",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-girlfriend"
 	},
@@ -3591,7 +3591,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/localhost\/_lab\/wordpress",
+	"externalServerAddress": "http:\/\/mutableconstant:8888",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,
