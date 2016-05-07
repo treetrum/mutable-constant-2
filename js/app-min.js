@@ -1,1 +1,1 @@
-$(document).foundation(),$(function(){window.console.log("Now Running: Sam Bedrock Theme")});
+function makePostsMinHeight(){var i=$(".posts"),n=$(window).height(),t=100,e=41,o=n-(e+t);i.css({"min-height":o})}$(document).foundation(),$(function(){makePostsMinHeight(),$(window).resize(makePostsMinHeight)});

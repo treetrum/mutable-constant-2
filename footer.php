@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="row">
         <div class="large-12 columns">
-            &copy; <?php echo Date('Y'); ?>. Sam Davis.
+            <p>&copy; <?php echo Date('Y'); ?>. <a href="http://sjd.co/" target="_blank">Sam Davis</a>.</p>
         </div>
     </div>
 </footer>

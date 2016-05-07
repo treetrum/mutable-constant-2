@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400' rel='stylesheet' type='text/css'>
+
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -22,7 +25,7 @@
     <header class="header">
         <div class="row">
             <div class="large-12 columns">
-                <h1 class="headline">MutableConstant</h1>
+                <a href="<?php echo bloginfo(url); ?>"><h1 class="headline">MutableConstant</h1></a>
             </div>
         </div>
     </header>

@@ -1,0 +1,19 @@
+body {
+    background-color: $purple;
+}
+
+header.header {
+    position: relative;
+    z-index: 10;
+    background-color: white;
+    height: $headerHeight;
+    box-shadow: 0 2px 4px rgba(black,.2);
+
+    h1.headline {
+        line-height: $headerHeight;
+        text-align: center;
+        font-family: $hack;
+        color: $purple;
+        // font-weight: 300;
+    }
+}
