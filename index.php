@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-
-
 <section class="posts">
     <div class="row">
 
@@ -13,7 +11,7 @@
 
             <article class="posts__post">
 
-                <h3 class="posts__post__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                <h3 class="posts__post__title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?><?php if (is_home()) echo " <i class='fa fa-chevron-right'></i>" ?></a></h3>
                 <p class="posts__post__date"><?php the_time('d.m.Y'); ?></p>
                 <div class="posts__post__content">
                     <?php the_content(); ?>
@@ -26,7 +24,7 @@
         </div>
 
         <?php endif; ?>
-        
+
     </div>
 </section>
 

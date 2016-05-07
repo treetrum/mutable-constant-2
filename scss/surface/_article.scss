@@ -9,7 +9,9 @@ section.posts {
 
         .posts__post__title {
             color: $purple;
-
+            .fa {
+                font-size: .75em;
+            }
         }
 
         .posts__post__date {
