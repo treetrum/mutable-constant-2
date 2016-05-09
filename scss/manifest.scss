@@ -19,3 +19,13 @@ Author: Sam Davis
 @import "surface/header";
 @import "surface/article";
 @import "surface/footer";
+
+section.pagination {
+    padding: 0 0 48px 0;
+    background-color: white;
+    text-align: center;
+    p {
+
+        color: $dark;
+    }
+}
