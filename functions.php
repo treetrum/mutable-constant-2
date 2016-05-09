@@ -43,6 +43,13 @@ remove_action( 'wp_head', 'wlwmanifest_link' );
 add_theme_support( 'title-tag' );
 add_theme_support( 'post-thumbnails' );
 
+function register_theme_menu() {
+    register_nav_menu( "topnav", __('Primary Menu', 'theme-slug') );
+}
+add_action( 'init', 'register_theme_menu', 10 );
+
+
+
 
 /*
 |--------------------------------------------------------------------------

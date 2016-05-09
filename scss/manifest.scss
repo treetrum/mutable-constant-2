@@ -29,3 +29,33 @@ section.pagination {
         color: $dark;
     }
 }
+
+nav.topnav {
+    background-color: white;
+    border-bottom: 1px solid darken(white,10%);
+
+    // Add horizontal scrolling
+    white-space: nowrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+
+
+    // padding: 0 $grid-column-gutter/2;
+    ul {
+        text-align: center;
+        @include breakpoint(small only) {
+            text-align: left;
+        }
+        padding: 10px $grid-column-gutter/2;
+        margin-right: $grid-column-gutter/2;
+        li {
+            margin-left: 24px;
+            display: inline-block;
+            &:first-child {margin-left: 0;}
+            a {
+                font-size: 1.0em;
+            }
+        }
+    }
+}

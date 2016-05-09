@@ -32,3 +32,7 @@
             </div>
         </div>
     </header>
+
+    <nav class="topnav">
+        <?php wp_nav_menu(array('menu'=>'topnav')) ?>
+    </nav>
