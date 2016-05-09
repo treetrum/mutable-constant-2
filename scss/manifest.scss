@@ -64,6 +64,9 @@ section.content-area {
     background-color: white;
     padding: 48px 0;
 
+    h1 {
+        margin-bottom: 24px;
+    }
     h2, h3, h4, h5, h6 {
         color: $purple;
     }
