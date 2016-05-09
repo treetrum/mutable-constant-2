@@ -1,1 +1,1 @@
-function makePostsMinHeight(){var i=$(".posts"),n=$(window).height(),t=100,e=41,o=n-(e+t);i.css({"min-height":o})}$(document).foundation(),$(function(){makePostsMinHeight(),$(window).resize(makePostsMinHeight)});
+function makePostsMinHeight(){var i=$(".minHeightAdjusted"),t=$(window).height(),e=$(".header").height(),n=$(".topnav").height(),h=41,o=t-(e+n+h);i.each(function(i){$(this).css({"min-height":o})})}$(document).foundation(),$(function(){makePostsMinHeight(),$(window).resize(makePostsMinHeight)});

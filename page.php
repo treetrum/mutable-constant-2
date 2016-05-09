@@ -2,7 +2,7 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-<section class="content-area">
+<section class="minHeightAdjusted content-area">
     <div class="row">
         <div class="medium-8 medium-offset-2 columns">
 

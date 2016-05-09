@@ -12,15 +12,18 @@ $(function() {
 
 function makePostsMinHeight() {
 
-    var $posts = $('.posts');
+    var $posts = $('.minHeightAdjusted');
     var totalHeight = $(window).height();
-    var navHeight = 100;
+    var headerHeight = $('.header').height();
+    var topnavHeight = $('.topnav').height();
     var footerHeight = 41;
 
-    var minHeight = totalHeight - (footerHeight + navHeight);
+    var minHeight = totalHeight - (headerHeight + topnavHeight + footerHeight);
 
-    $posts.css({
-        "min-height": minHeight
+    $posts.each(function(index) {
+        $(this).css({
+            "min-height": minHeight
+        });
     });
 
 }

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="posts">
+<section class="minHeightAdjusted posts">
     <div class="row">
 
         <?php if ( have_posts() ) :  ?>
