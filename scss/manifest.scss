@@ -59,3 +59,15 @@ nav.topnav {
         }
     }
 }
+
+section.content-area {
+    background-color: white;
+    padding: 48px 0;
+
+    h2, h3, h4, h5, h6 {
+        color: $purple;
+    }
+    p {
+        margin-bottom: 24px;
+    }
+}

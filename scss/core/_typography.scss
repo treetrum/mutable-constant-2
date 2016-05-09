@@ -56,6 +56,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, ul {
 	margin: 0 0 0 0;
+	color: $dark;
 }
 
 h1 { font-size: 2.25em;; line-height: 1.5; }
@@ -86,7 +87,7 @@ ul + h3,
 ul + h4,
 ul + h5,
 ul + h6 {
-    margin-top: 36px;
+    margin-top: 2em;
 }
 
 a {
