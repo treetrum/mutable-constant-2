@@ -19,6 +19,8 @@
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <meta name="description" content="<?php echo bloginfo('description'); ?>">
+
     <?php wp_head(); ?>
 
 </head>
