@@ -2745,8 +2745,8 @@
 		"oA": 0,
 		"oAP": "\/js\/app-min.js",
 		"oF": 2,
-		"sC": 2,
-		"tS": 0
+		"sC": 1,
+		"tS": 1
 		},
 	"\/page.php": {
 		"ft": 8192,
@@ -3362,7 +3362,7 @@
 		},
 	"esLintConfigFileHandlingType": 1,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 17,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -4277,7 +4277,7 @@
 	"externalServerAddress": "http:\/\/mutableconstant:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "console, $",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,
@@ -4598,7 +4598,7 @@
 			"flagValue": -1
 			},
 		"es6": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"eval": {

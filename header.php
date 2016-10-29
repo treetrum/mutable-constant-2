@@ -38,3 +38,4 @@
     <nav class="topnav">
         <?php wp_nav_menu(array('menu'=>'topnav')) ?>
     </nav>
+    <div class="topnav-spacer"></div>
