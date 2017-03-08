@@ -1,5 +1,6 @@
-scss/.sass-cache/
+scss/*.sass-cache/
 bower_components/
 *.sublime-project
 *.sublime-workspace
 .codekit-cache
+*.map
