@@ -8,14 +8,14 @@ section.posts {
     }
 
         .posts__post__title {
-            color: $purple;
+            color: $primary;
             .fa {
                 font-size: .75em;
             }
         }
 
         .posts__post__date {
-            color: $purple;
+            color: $primary;
             font-size: 1em;
             margin-bottom: 24px;
         }
@@ -31,7 +31,7 @@ section.posts {
                 padding-left: 16px;
                 padding-top: 5px;
                 padding-bottom: 5px;
-                border-left: 5px solid $purple;
+                border-left: 5px solid $primary;
                 margin-bottom: 24px;
                 p {
                     color: lighten($dark, 20%);

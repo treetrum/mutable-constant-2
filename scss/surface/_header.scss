@@ -1,5 +1,5 @@
 body {
-    background-color: $purple;
+    background-color: $primary;
 }
 
 header.header {
@@ -13,7 +13,7 @@ header.header {
         line-height: $headerHeight;
         text-align: center;
         font-family: $hack;
-        color: $purple;
+        color: $primary;
         font-size: 2.25rem;
         @include breakpoint(medium) {
             font-size: 3rem;
