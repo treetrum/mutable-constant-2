@@ -2956,6 +2956,17 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/screenshot.png": {
+		"ft": 32768,
+		"iS": 243262,
+		"oA": 0,
+		"oAP": "\/screenshot.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/scss\/core\/_app.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -4533,7 +4544,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/mutableconstant:8888",
+	"externalServerAddress": "http:\/\/mutableconstant.dev",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "console, $",
