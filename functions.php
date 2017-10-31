@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| 0. Enqueue scripts
+| Enqueue scripts
 |--------------------------------------------------------------------------
 */
 
@@ -27,7 +27,7 @@ add_action( 'wp_enqueue_scripts', 'bedrock_scripts' );
 
 /*
 |--------------------------------------------------------------------------
-| 1. Basic setup
+| Basic setup
 |--------------------------------------------------------------------------
 */
 
@@ -49,30 +49,9 @@ function register_theme_menu() {
 add_action( 'init', 'register_theme_menu', 10 );
 
 
-
-
 /*
 |--------------------------------------------------------------------------
-| 2. Post thumbnails
-|--------------------------------------------------------------------------
-*/
-
-// New image sizes
-add_image_size( 'bedrock-200', 200, 200, true );
-
-// Remove default thumbnail sizes
-function bedrock_drop_default_image_sizes( $sizes ) {
-	unset( $sizes['medium'] );
-	unset( $sizes['large'] );
-	return $sizes;
-}
-
-add_filter( 'intermediate_image_sizes_advanced', 'bedrock_drop_default_image_sizes' );
-
-
-/*
-|--------------------------------------------------------------------------
-| 3. Functions
+| Functions
 |--------------------------------------------------------------------------
 */
 
