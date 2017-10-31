@@ -102,3 +102,29 @@ function my_mce_buttons_2( $buttons ) {
 }
 // Register our callback to the appropriate filter
 add_filter( 'mce_buttons_2', 'my_mce_buttons_2' );
+
+/*
+|--------------------------------------------------------------------------
+| Remove comments
+|--------------------------------------------------------------------------
+*/
+
+add_action('init', 'remove_comment_support', 100);
+function remove_comment_support() {
+    // Remove post type support for each post type
+    foreach (get_post_types() as $post_type) {
+        if (post_type_supports( $post_type, 'comments' )) {
+            // Don't remove comment support for shop orders
+            if ($post_type !== 'shop_order') {
+                remove_post_type_support( 'page', 'comments' );
+            }
+        }
+    }
+    // Uncomment the following to force hiding comment meta boxes
+    // remove_meta_box( 'commentsdiv', 'post', 'normal' );
+}
+// Hide edit screen in WP backend
+add_action( 'admin_menu', 'remove_comments_page' );
+function remove_comments_page() {
+    remove_menu_page( 'edit-comments.php' );
+}
