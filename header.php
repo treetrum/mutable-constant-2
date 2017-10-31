@@ -30,7 +30,7 @@
     <header class="header">
         <div class="row">
             <div class="large-12 columns">
-                <a href="<?php echo bloginfo(url); ?>"><h1 class="headline">MutableConstant</h1></a>
+                <a href="<?php echo bloginfo(url); ?>"><h1 class="headline"><?php echo bloginfo('name'); ?></h1></a>
             </div>
         </div>
     </header>
