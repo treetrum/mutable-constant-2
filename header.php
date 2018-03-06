@@ -7,7 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css?v=<?php echo md5_file(get_template_directory() . '/style.css'); ?>">
 
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/92d1da124e.js"></script>

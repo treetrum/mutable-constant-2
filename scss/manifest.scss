@@ -30,7 +30,7 @@ section.pagination {
 }
 
 nav.topnav {
-    background-color: white;
+    background-color: $primary;
     border-bottom: 1px solid darken(white,10%);
 
     // Add horizontal scrolling
@@ -48,7 +48,7 @@ nav.topnav {
 
         @supports (backdrop-filter: blur(10px)) {
             backdrop-filter: blur(10px);
-            background-color: rgba(white, 0.8);
+            background-color: rgba($primary, 1);
         }
         // @supports (-webkit-backdrop-filter: blur(10px)) {
         //     -webkit-backdrop-filter: blur(10px);
@@ -66,6 +66,7 @@ nav.topnav {
             &:first-child {margin-left: 0;}
             a {
                 font-size: 1.0em;
+                color: $highlight
             }
         }
     }

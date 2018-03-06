@@ -8,14 +8,21 @@ section.posts {
     }
 
         .posts__post__title {
-            color: $primary;
+            a {
+                transition: .2s ease all;
+                color: $primary;
+                &:hover {
+                    color: lighten($primary, 20%);
+                }
+            }
+            
             .fa {
                 font-size: .75em;
             }
         }
 
         .posts__post__date {
-            color: $primary;
+            color: $highlight;
             font-size: 1em;
             margin-bottom: 24px;
         }
